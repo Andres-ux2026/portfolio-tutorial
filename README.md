@@ -1,2 +1,0 @@
-# portfolio-tutorial
-mi portafolio
