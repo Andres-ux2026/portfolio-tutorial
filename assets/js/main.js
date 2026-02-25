@@ -222,7 +222,7 @@ formulario.addEventListener("submit", function (e) {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-  emailjs.init("TU_PUBLIC_KEY");
+  emailjs.init("SN3C0UYY0iZtm2Sdq");
 
   const formulario = document.getElementById("contactForm");
 
