@@ -212,14 +212,6 @@
 
 })();
 
-emailjs.init("SN3C0UYY0iZtm2Sdq");
-
-let formulario = document.getElementById("contactForm");
-
-formulario.addEventListener("submit", function (e) {
-  e.preventDefault();
-});
-
 document.addEventListener("DOMContentLoaded", function () {
 
   emailjs.init("SN3C0UYY0iZtm2Sdq");
@@ -235,8 +227,8 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector(".loading").style.display = "block";
 
       await emailjs.sendForm(
-        "TU_SERVICE_ID",
-        "TU_TEMPLATE_ID",
+        "service_lidnjvc",
+        "template_d3yp8ac",
         this
       );
 
